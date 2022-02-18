@@ -1,10 +1,49 @@
+/*main*/
 *{
     margin: 0%;
     padding: 0;
     box-sizing: border-box;
 }
 
+:root{
+    --header:#E579E6;
+    --img: yellow;
+    --sidebar:blue;
+    --central-sidebar:red;
+    --footer:pink;
+    --logo:green;
+    --nav:orange;
+}
+
+.box_logo:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
 body{
     margin: 1rem auto;
     width: 80%;
+}
+
+/*header*/
+header{
+    background-color: var(--header);
+    height: 200px;
+    padding: 1rem;
+}
+
+.logo{
+    background-color: var(--logo) ;
+    float: left;
+    height: 100px;
+    width: 300px;
+}
+
+nav{
+    background-color: var(--nav);
+    height: 50px;
+    width: 100%;
+    float: none;
+    margin-top: 1rem;
 }
