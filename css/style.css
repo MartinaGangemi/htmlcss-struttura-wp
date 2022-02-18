@@ -91,3 +91,9 @@ nav{
     height: 400px;
     float: left;
 }
+
+footer{
+    background-color: var(--footer);
+    height: 100px;
+    margin-top: 1rem;
+}
